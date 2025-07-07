@@ -1,0 +1,28 @@
+
+body {
+  font-family: sans-serif;
+  background: #fff;
+  margin: 0;
+  padding: 1rem;
+}
+
+h1 {
+  color: #2B2553;
+  text-align: center;
+}
+
+#malla {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+.box {
+  border: 1px solid #ccc;
+  padding: 0.5rem;
+  border-radius: 4px;
+  width: 200px;
+  text-align: center;
+  background: #f7f7f7;
+}
+</style>

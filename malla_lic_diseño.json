@@ -1,0 +1,425 @@
+[
+  {
+    "id": "psico",
+    "nombre": "Introducción a la Psicología",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "escritura",
+    "nombre": "Escritura y Oratoria",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "eco",
+    "nombre": "Economía",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "admin",
+    "nombre": "Fundamentos de Administración",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "historia",
+    "nombre": "Historia",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "lit",
+    "nombre": "Literatura",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "sem1",
+    "nombre": "Seminario 1",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "sem2",
+    "nombre": "Seminario 2",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "iteracion",
+    "nombre": "Iteración",
+    "anio": 1,
+    "cuatrimestre": 1,
+    "color": "#ED3B7B"
+  },
+  {
+    "id": "interaccion",
+    "nombre": "Interacción",
+    "anio": 1,
+    "cuatrimestre": 2,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "iteracion"
+    ]
+  },
+  {
+    "id": "filo",
+    "nombre": "Filosofía y Ética",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "proyectual",
+    "nombre": "Pensamiento Proyectual",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "cuanti",
+    "nombre": "Intro a Métodos Cuantitativos",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "socio",
+    "nombre": "Teoría Sociológica Contemp.",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "arte",
+    "nombre": "Arte",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "ciencias",
+    "nombre": "Ciencias",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF"
+  },
+  {
+    "id": "sem3",
+    "nombre": "Seminario 3",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF",
+    "correlativas": [
+      "sem1"
+    ]
+  },
+  {
+    "id": "sem4",
+    "nombre": "Seminario 4",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "color": "#F1EBEF",
+    "correlativas": [
+      "sem2"
+    ]
+  },
+  {
+    "id": "sustentabilidad",
+    "nombre": "Sustentabilidad",
+    "anio": 2,
+    "cuatrimestre": 1,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "iteracion",
+      "escritura",
+      "eco",
+      "historia"
+    ]
+  },
+  {
+    "id": "prospectiva",
+    "nombre": "Prospectiva",
+    "anio": 2,
+    "cuatrimestre": 2,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "interaccion",
+      "eco",
+      "psico",
+      "arte"
+    ]
+  },
+  {
+    "id": "opt1",
+    "nombre": "Optativa 1",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "color": "#2B2553",
+    "correlativas": [
+      "interaccion",
+      "iteracion"
+    ]
+  },
+  {
+    "id": "opt2",
+    "nombre": "Optativa 2",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "color": "#2B2553",
+    "correlativas": [
+      "interaccion",
+      "iteracion",
+      "opt1"
+    ]
+  },
+  {
+    "id": "disenio",
+    "nombre": "Diseño de Información",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "interaccion",
+      "iteracion"
+    ]
+  },
+  {
+    "id": "etnografia",
+    "nombre": "Etnografía",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "interaccion",
+      "iteracion"
+    ]
+  },
+  {
+    "id": "escenarios",
+    "nombre": "Escenarios futuros",
+    "anio": 3,
+    "cuatrimestre": 1,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "interaccion",
+      "iteracion"
+    ]
+  },
+  {
+    "id": "tendencias",
+    "nombre": "Tendencias",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "interaccion",
+      "iteracion",
+      "prospectiva"
+    ]
+  },
+  {
+    "id": "mercado",
+    "nombre": "Mercado",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "interaccion",
+      "iteracion",
+      "proyectual"
+    ]
+  },
+  {
+    "id": "narrativas",
+    "nombre": "Narrativas",
+    "anio": 3,
+    "cuatrimestre": 2,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "interaccion",
+      "iteracion",
+      "proyectual"
+    ]
+  },
+  {
+    "id": "opt3",
+    "nombre": "Optativa 3",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "color": "#2B2553"
+  },
+  {
+    "id": "opt4",
+    "nombre": "Optativa 4",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "color": "#2B2553"
+  },
+  {
+    "id": "usabilidad",
+    "nombre": "Usabilidad y Factores Humanos",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "escritura",
+      "filo",
+      "proyectual",
+      "eco",
+      "cuanti",
+      "historia",
+      "lit",
+      "arte",
+      "ciencias",
+      "interaccion",
+      "iteracion",
+      "sustentabilidad",
+      "prospectiva",
+      "opt1",
+      "opt2",
+      "opt3",
+      "opt4"
+    ]
+  },
+  {
+    "id": "sistema",
+    "nombre": "Sist. Industrial y Modelos de Negocios",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "escritura",
+      "filo",
+      "proyectual",
+      "eco",
+      "cuanti",
+      "historia",
+      "lit",
+      "arte",
+      "ciencias",
+      "interaccion",
+      "iteracion",
+      "sustentabilidad",
+      "prospectiva",
+      "opt1",
+      "opt2",
+      "opt3",
+      "opt4"
+    ]
+  },
+  {
+    "id": "diagnostico",
+    "nombre": "Métodos de Diagnóstico",
+    "anio": 4,
+    "cuatrimestre": 1,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "escritura",
+      "filo",
+      "proyectual",
+      "eco",
+      "cuanti",
+      "historia",
+      "lit",
+      "arte",
+      "ciencias",
+      "interaccion",
+      "iteracion",
+      "sustentabilidad",
+      "prospectiva",
+      "opt1",
+      "opt2",
+      "opt3",
+      "opt4"
+    ]
+  },
+  {
+    "id": "portafolio",
+    "nombre": "Portafolio",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "escritura",
+      "filo",
+      "proyectual",
+      "eco",
+      "cuanti",
+      "historia",
+      "lit",
+      "arte",
+      "ciencias",
+      "interaccion",
+      "iteracion",
+      "sustentabilidad",
+      "prospectiva",
+      "opt1",
+      "opt2",
+      "opt3",
+      "opt4"
+    ]
+  },
+  {
+    "id": "complejos",
+    "nombre": "Entornos Complejos",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "escritura",
+      "filo",
+      "proyectual",
+      "eco",
+      "cuanti",
+      "historia",
+      "lit",
+      "arte",
+      "ciencias",
+      "interaccion",
+      "iteracion",
+      "sustentabilidad",
+      "prospectiva",
+      "opt1",
+      "opt2",
+      "opt3",
+      "opt4"
+    ]
+  },
+  {
+    "id": "integrador",
+    "nombre": "Taller Integrador",
+    "anio": 4,
+    "cuatrimestre": 2,
+    "color": "#ED3B7B",
+    "correlativas": [
+      "escritura",
+      "filo",
+      "proyectual",
+      "eco",
+      "cuanti",
+      "historia",
+      "lit",
+      "arte",
+      "ciencias",
+      "interaccion",
+      "iteracion",
+      "sustentabilidad",
+      "prospectiva",
+      "opt1",
+      "opt2",
+      "opt3",
+      "opt4"
+    ]
+  }
+]
